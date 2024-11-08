@@ -23,10 +23,10 @@
     return 0;
   }
 
-  const circle: Circle = { shape: "circle", radius: 4 };
-  const rectangle: Rectangle = { shape: "rectangle", height: 4, width: 6 };
+  const circleArea: Circle = { shape: "circle", radius: 4 };
+  const rectangleArea: Rectangle = { shape: "rectangle", height: 4, width: 6 };
 
-  console.log(calculateShapeArea(circle));
-  console.log(calculateShapeArea(rectangle));
+  console.log(calculateShapeArea(circleArea));
+  console.log(calculateShapeArea(rectangleArea));
   //
 }

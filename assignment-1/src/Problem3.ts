@@ -5,7 +5,7 @@
     const sentenceCase = sentence.toLowerCase();
     const wordCase = word.toLowerCase();
 
-    const ignoreDot = sentenceCase.replace(/[.,!?;:]/g, "");
+    const ignoreDot = sentenceCase.replace(/[.]/g, "");
 
     const findWord = ignoreDot.split(" ");
     return findWord.filter((word) => word === wordCase).length;
